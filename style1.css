@@ -2,7 +2,6 @@ body{
     background-color:lightgreen;
     display:flex;
     justify-content:center;
-    cursor:pointer;
 }
 #container{
     margin-top: 12rem;
@@ -16,7 +15,7 @@ body{
     color:purple;
     font-size: larger;
     text-transform: capitalize;
-    cursor:pointer;
+     box-shadow:10px 20px 20px darkcyan;
 
 }
 h2{
@@ -29,14 +28,14 @@ input{
     width:20rem;
     text-align:left;
     border-radius:10px;
-    border:none;
-    cursor:pointer;
+    background:transparent;
+    border:black 1px solid;
     outline: none;
     
 }
 #result{
     margin-top:40px;
-    color:midnightblue;
+     color:whitesmoke;
     font-size: larger;
     font-weight: bolder;
 }
@@ -106,6 +105,9 @@ button {
     animation: none;
     display: none;
   }
+::placeholder{
+    color:white;
+    text-align: center;
   
   @keyframes ring {
     0% {
@@ -119,4 +121,34 @@ button {
       opacity: 0;
     }
   }
-  
+  @media(max-width:488px){
+    #container{
+padding-left:7rem;
+padding-right:6rem;
+    }
+    #container h2{
+      display:inline-block;
+      margin-top:2rem;
+      font-size:1.2rem;
+      margin-left:-9rem;
+      margin-right:-8.5rem;
+    }
+    input{
+      border:black 1px solid;
+      margin-left:-5.8rem;
+      background:transparent;
+      outline:none;
+    }
+    #result{
+      margin-top:4rem;
+
+    }
+    ::placeholder{
+      color:white;
+      text-align: center;
+    }
+    button{
+      margin-left:-6rem;
+      margin-bottom:-7rem;
+    }
+  }
