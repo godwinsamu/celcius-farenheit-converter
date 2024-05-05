@@ -121,7 +121,7 @@ button {
       opacity: 0;
     }
   }
-  @media (max-width:600px){
+  @media (min-width:400px){
     #container{
 padding-left:7rem;
 padding-right:6rem;
