@@ -22,6 +22,7 @@ h2{
     font-weight: bolder;
 }
 input{
+    color:white;
     padding-top:9px;
     padding-bottom:9px;
     margin-top:40px;
@@ -133,6 +134,7 @@ padding-right:6rem;
       margin-right:-8.5rem;
     }
     input{
+        color:white;
       border:black 1px solid;
       margin-left:-5.8rem;
       background:transparent;
